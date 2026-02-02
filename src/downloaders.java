@@ -1,7 +1,9 @@
 // Basic web scraper for downloading and managing selected server and mods.
 
 abstract class Downloader {
-    // Checks if page exists, accesses page, finds download URL, downloads target file to ./cache/
+
+    // Checks if page exists, accesses page, finds download URL, downloads target file to local cache directory
+    String url;
 }
 
 final class MinecraftDownloader extends Downloader {
@@ -14,5 +16,5 @@ final class ModrinthDownloader extends Downloader {
 }
 
 final class FabricDownloader extends Downloader {
-    // Connects to
+    // Connects to fabricmc.net, downloads most recent stable version of Fabric Minecraft server launcher
 }
