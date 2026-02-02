@@ -1,0 +1,18 @@
+{
+  "download_pages": {
+    "java_srv": "https://www.minecraft.net/en-us/download/server",
+    "bedrock_srv": "https://www.minecraft.net/en-us/download/server/bedrock",
+    "fabric_srv": "https://fabricmc.net/use/server/",
+    "fabric_api": "https://modrinth.com/mod/fabric-api/versions?c=release",
+    "geyser": "https://modrinth.com/plugin/geyser/versions?c=release&l=fabric",
+    "floodgate": "https://modrinth.com/mod/floodgate/versions?c=release&l=fabric"
+  },
+  "server_folders": {
+    "linux_path": "/srv/mcservermanager/",
+    "windows_path": "C:\\mcservermanager\\"
+  },
+  "defaults": {
+    "server_ip": "",
+    "port": 25565
+  }
+}
