@@ -1,0 +1,11 @@
+[Unit]
+Description=Minecraft Server Start-On-Boot
+
+[Service]
+Type=exec
+ExecStart=/srv/mcserver/runserver.sh
+StandardOutput=file:/srv/mcserver/logs/console.log
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target
